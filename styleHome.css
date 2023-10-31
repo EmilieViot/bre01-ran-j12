@@ -1,0 +1,88 @@
+/*
+dark purple : #41104e;
+white : #ffffff;
+dark blue : #0a066e;
+grey blue : #4b577c;
+rich green : #0f8470;
+red : #c10d32;
+dark pink : #933060;
+brown : #876a72;
+dark green : #0f3e2d;
+dark red : #7d0426;
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Special Elite', cursive;
+
+ */
+
+/* HOMEPAGE */
+
+#home {
+    width:100vw;
+    height:100vh;
+    margin : 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#home main {
+    width : 100%;
+    height: 100%;
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#home main > section {
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+}
+
+#home main > section:first-of-type {
+    background-color: white;
+    color : #41104e;
+    padding-top:40%;
+    text-align: center;
+}
+
+#home main > section:last-of-type {
+    background-color: #41104e;
+    color : white;
+    padding-top: 20%;
+}
+
+#home img {
+    width : 50%;
+    margin-left: 25%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8em;
+    font-family: 'Special Elite', cursive;
+}
+
+h2 {
+    font-size: 2.3em;
+    font-family: 'Special Elite', cursive;
+}
+
+#home input[type="text"] {
+    border : 2px solid #41104e;
+    height: 3em;
+    width: 60%;
+    border-radius: 15px;
+}
+
+#home input[type="submit"] {
+    border : none;
+    background-color: #41104e;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-transform: uppercase;
+    height : 3em;
+    min-width: 50%;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
