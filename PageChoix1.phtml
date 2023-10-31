@@ -1,8 +1,3 @@
-<?php
-$Name = echo $_GET["Name"]
-?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,12 +8,12 @@ $Name = echo $_GET["Name"]
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylePageChoix1.css" />
+    <link rel="stylesheet" href="stylePageChoix1.css"/>
 </head>
 <body id="choice-dark-blue">
 <main>
     <section>
-        <h2>aLORS <?php echo "$Name"; ?>, tu ferai quoi toi ?</h2>
+        <h2>Alors <?php echo $_POST['Name']; ?>, tu ferais quoi toi ?</h2>
         <div>
             <form method="get" action="">
                 <div>
